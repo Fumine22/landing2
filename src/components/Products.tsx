@@ -12,23 +12,23 @@ const products: Product[] = [
   {
     id: 1,
     logo: "https://technext.github.io/seogram/assets/img/services/service-1.svg",
-    title: "SEO Consultancy",
+    title: "TECH Consultancy",
     description:
-      "We help you define your SEO objective & develop a realistic strategy with you",
+      "We help you define your TECH objective & develop a realistic strategy with you",
   },
   {
     id: 2,
     logo: "https://technext.github.io/seogram/assets/img/services/service-2.svg",
     title: "Content Marketing",
     description:
-      "We help you define your SEO objective & develop a realistic strategy with you",
+      "We help you define your TECH objective & develop a realistic strategy with you",
   },
   {
     id: 3,
     logo: "https://technext.github.io/seogram/assets/img/services/service-3.svg",
     title: "Keyword Research",
     description:
-      "We help you define your SEO objective & develop a realistic strategy with you",
+      "We help you define your TECH objective & develop a realistic strategy with you",
   },
 ];
 

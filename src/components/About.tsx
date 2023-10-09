@@ -10,7 +10,7 @@ const About = () => {
             <p className="uppercase tracking-[3px] text-base">about us</p>
 
             <h2 className="text-[32px]/[1.2] text-[#645f88]">
-              The number #1 SEO Service Company
+              The number #1 TECH Service Company
             </h2>
 
             <div className="mt-4 mb-8 w-8 h-[3px] rounded-[40px] bg-[#6c55f9]" />

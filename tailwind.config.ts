@@ -22,9 +22,11 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        check: "radial-gradient(circle, #B262F8 15%, #5439F8)",
       },
       boxShadow: {
         product: "0 3px 12px rgba(95, 92, 120, 0.12)",
+        service: "0 2px 4px rgba(95, 92, 120, 0.16)",
       },
     },
   },

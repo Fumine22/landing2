@@ -2,9 +2,7 @@ import { PlayCircle } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-type Props = {};
-
-const Banner = (props: Props) => {
+const Banner = () => {
   return (
     <section>
       <div className="container">
