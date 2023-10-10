@@ -33,7 +33,7 @@ const Banner = () => {
                 {/* Button */}
                 <Link
                   href="#"
-                  className="bg-[#6c55f9] rounded-[40px] py-[6px] pr-[6px] pl-6 inline-flex text-[#fff] gap-4 text-base max-w-[180px]"
+                  className="bg-[#6c55f9] rounded-[40px] py-[6px] pr-[6px] pl-6 inline-flex text-[#fff] gap-4 text-base max-w-[180px] hover:opacity-70"
                 >
                   <p>Watch Video</p>
                   <PlayCircle />

@@ -20,7 +20,7 @@ const Check = () => {
 
                 <Link
                   href="#"
-                  className="absolute top-[6px] right-[6px] py-2 px-6 bg-[#35bb78] rounded text-base/[1.5]"
+                  className="absolute top-[6px] right-[6px] py-2 px-6 bg-[#35bb78] rounded text-base/[1.5] hover:opacity-70"
                 >
                   Check Now
                 </Link>

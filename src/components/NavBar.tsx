@@ -100,7 +100,7 @@ const NavBar = () => {
             {/* Button Mobile */}
             <Link
               href="#"
-              className="bg-[#6c55f9] text-[#fff] py-2 px-6 rounded focus:bg-[#645f88]"
+              className="bg-[#6c55f9] text-[#fff] py-2 px-6 rounded focus:bg-[#645f88] hover:opacity-70"
             >
               Free Analytics
             </Link>

@@ -35,7 +35,7 @@ const About = () => {
             {/* Button */}
             <Link
               href="#"
-              className="py-2 px-6 bg-[#6c55f9] mt-3 text-[#fff] rounded text-lg"
+              className="py-2 px-6 bg-[#6c55f9] mt-3 text-[#fff] rounded text-lg hover:opacity-70"
             >
               Read More
             </Link>

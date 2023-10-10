@@ -95,7 +95,7 @@ const Blog = () => {
           <div className="flex justify-center">
             <Link
               href="#"
-              className="text-center mt-4 py-2 px-6 bg-[#6c55f9] text-[#fff] border text-base/[1.5] rounded"
+              className="text-center mt-4 py-2 px-6 bg-[#6c55f9] text-[#fff] border text-base/[1.5] rounded hover:opacity-70"
             >
               View More
             </Link>

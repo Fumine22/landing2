@@ -127,7 +127,7 @@ const Footer = () => {
 
                 <Link
                   href="#"
-                  className="py-2 px-6 text-[#fff] bg-[#35bb78] mt-2 w-full text-center border border-[#35bb78] rounded text-base/[1.5]"
+                  className="py-2 px-6 text-[#fff] bg-[#35bb78] mt-2 w-full text-center border border-[#35bb78] rounded text-base/[1.5] hover:opacity-70"
                 >
                   Send Mail
                 </Link>

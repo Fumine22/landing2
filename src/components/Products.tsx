@@ -43,7 +43,10 @@ function ProductCard({ logo, title, description }: Product) {
       <div>
         <h5 className="font-medium text-xl mb-2">{title}</h5>
         <p className="mb-4">{description}</p>
-        <Link href="#" className="bg-[#6C55F9] text-[#fff] py-2 px-6 rounded">
+        <Link
+          href="#"
+          className="bg-[#6C55F9] text-[#fff] py-2 px-6 rounded hover:opacity-70"
+        >
           Read More
         </Link>
       </div>
