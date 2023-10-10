@@ -7,20 +7,20 @@ const Banner = () => {
     <section>
       <div className="container">
         <div className="bg-[#F6F5FC] rounded-[30px] z-10 text-[#645f88] my-4">
-          <div className="h-full flex flex-wrap items-center justify-center">
-            <div className="lg:flex lg:flex-nowrap lg:flex-row-reverse lg:justify-between py-10 lg:px-20">
-              <div className="max-w-[400px] text-center h-auto m-auto">
+          <div className="flex items-center">
+            <div className="flex flex-col lg:flex-row-reverse py-20 lg:px-20 w-full justify-between items-center">
+              <div className="max-w-[400px] text-center">
                 {/* Right-Image */}
                 <Image
                   src="https://technext.github.io/seogram/assets/img/banner_image_1.svg"
                   alt="image"
-                  width={345}
-                  height={296}
+                  width={400}
+                  height={400}
                 />
               </div>
-              <div className="lg:max-w-[384px] py-12 pl-[15px] pr-[30px] flex flex-col gap-6">
+              <div className="py-12 pl-[15px] pr-[30px] flex flex-col gap-6 max-w-md">
                 {/* Title */}
-                <h1 className="mb-4 text-4xl">
+                <h1 className="mb-4 text-5xl">
                   Let&apos;s Check and Optimize your website!
                 </h1>
 

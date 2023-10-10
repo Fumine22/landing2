@@ -13,7 +13,7 @@ interface Menu {
 
 const menuItems: Menu[] = [
   { id: 1, src: "#", text: "Home" },
-  { id: 2, src: "#", text: "About" },
+  { id: 2, src: "#about", text: "About" },
   { id: 3, src: "#", text: "Services" },
   { id: 4, src: "#", text: "Blog" },
   { id: 5, src: "#", text: "Contact" },
@@ -36,7 +36,7 @@ const NavBar = () => {
 
             {/* Loop NavMenu */}
             <div className="hidden lg:flex gap-5">
-              <ul className="hidden lg:flex justify-between gap-4 py-2">
+              <ul className="hidden lg:flex justify-between py-2">
                 {menuItems.map((menu) => (
                   <li
                     key={menu.id}
@@ -44,7 +44,7 @@ const NavBar = () => {
                       menu.id === 1 ? "text-[#6c55f9]" : "text-[#645f88bf]"
                     } hover:opacity-70`}
                   >
-                    <Link href={menu.src} className="w-full">
+                    <Link href={menu.src} className="w-full px-2">
                       {menu.text}
                     </Link>
                   </li>

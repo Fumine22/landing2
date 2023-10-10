@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <section className="text-[#898798]">
+    <section className="text-[#898798]" id="about">
       <div className="container">
         <div className="flex items-center flex-wrap lg:flex-nowrap py-[80px]">
           <div className="py-3 lg:max-w-[496px]">
