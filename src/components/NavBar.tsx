@@ -28,11 +28,13 @@ const NavBar = () => {
         <div className="container">
           <div className="flex justify-between items-center">
             <div className="flex justify-between items-center gap-8 py-2 max-w-md w-full">
+              {/* Logo */}
               <Link href="#" className="py-[10px] font-semibold text-xl">
                 Tech<span className="text-[#6C55F9]">Gram</span>
               </Link>
             </div>
 
+            {/* Loop NavMenu */}
             <div className="hidden lg:flex gap-5">
               <ul className="hidden lg:flex justify-between gap-4 py-2">
                 {menuItems.map((menu) => (
@@ -49,6 +51,7 @@ const NavBar = () => {
                 ))}
               </ul>
 
+              {/* Button */}
               <Link
                 href="#"
                 className="bg-[#6c55f9] text-[#fff] py-2 px-6 rounded focus:bg-[#645f88]"
@@ -57,6 +60,7 @@ const NavBar = () => {
               </Link>
             </div>
 
+            {/* Mobile NavMenu */}
             <Menu.Button
               onClick={() => setIsShowing((isShowing) => !isShowing)}
               className="border border-[#e5e5e5] border-solid rounded lg:hidden py-2 px-4"
@@ -74,8 +78,8 @@ const NavBar = () => {
             leaveFrom="max-h-[500px]"
             leaveTo="max-h-0"
             className="relative -z-10 border-t border-[#e4e7ee] lg:hidden"
-            //   className="fixed inset-x-0 flex justify-center"
           >
+            {/* Loop NavMenu Mobile */}
             <div className="py-3">
               <ul className="flex flex-col gap-4 py-2 max-w-md">
                 {menuItems.map((menu) => (
@@ -93,6 +97,7 @@ const NavBar = () => {
               </ul>
             </div>
 
+            {/* Button Mobile */}
             <Link
               href="#"
               className="bg-[#6c55f9] text-[#fff] py-2 px-6 rounded focus:bg-[#645f88]"

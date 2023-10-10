@@ -27,6 +27,7 @@ const config: Config = {
       boxShadow: {
         product: "0 3px 12px rgba(95, 92, 120, 0.12)",
         service: "0 2px 4px rgba(95, 92, 120, 0.16)",
+        blog: "0 2px 6px rgba(100, 95, 136, 0.16)",
       },
     },
   },
